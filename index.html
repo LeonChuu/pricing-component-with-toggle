@@ -13,74 +13,76 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body role="main">
-  <div class="container">
-    <div class="row header">
-      <h1 class="justify-content-center d-flex">Our Pricing</h2>
-    </div>
+<body >
+  <main role="main">
+    <div class="container">
+      <div class="row header">
+        <h1 class="justify-content-center d-flex">Our Pricing</h2>
+      </div>
 
-    <div>
-      <div class="row">
-        <div class="d-flex justify-content-center">
-          <div class="form-check form-switch d-flex">
-            <label for="switch" class="form-check-label align-self-center">Anually</label>
-              <div class="switch-bg">
-               <input type="checkbox" class="form-check-input" id="switch" onchange="changeText(this)"/>
-              </div>
-            <label for="switch" class="form-check-label align-self-center">Monthly</label>
+        <div class="row">
+          <div class="d-flex justify-content-center">
+            <div class="form-check form-switch d-flex">
+              <label for="switch" class="form-check-label align-self-center">Anually</label>
+                <div class="switch-bg">
+                <input type="checkbox" class="form-check-input" id="switch" onchange="changeText(this)"/>
+                </div>
+              <label for="switch" class="form-check-label align-self-center">Monthly</label>
+            </div>
+          </div>    
+        </div>
+
+      <div class="col-10 offset-1">
+        <div class="row cards d-flex">
+          <div class="card col-lg price-card justify-content-center">
+            <ul class="list-group">
+            <li class="list-group-item border-0 card-title">Basic</li>
+            <li class="list-group-item price border-0 d-flex"><span class='dollar'>&dollar;</span><div id='pricebasic'>199.99</div></li>
+            <li class="list-group-item border-start-0 border-end-0">500 GB Storage</li>
+            <li class="list-group-item border-0">2 Users Allowed</li>
+            <li class="list-group-item border-start-0 border-end-0">Send up to 3 GB</li>
+            <li>
+              <button type="button" class="btn btn-purple text-white">LEARN MORE</button>
+            </li>
+            </ul>
           </div>
-        </div>    
-      </div>
 
-    <div class="row cards d-flex">
-      <div class="card col-lg price-card justify-content-center">
-        <ul class="list-group">
-        <li class="list-group-item border-0 card-title">Basic</li>
-        <li class="list-group-item price border-0 d-flex"><span class='dollar'>&dollar;</span><div id='pricebasic'>199.99</div></li>
-        <li class="list-group-item border-start-0 border-end-0">500 GB Storage</li>
-        <li class="list-group-item border-0">2 Users Allowed</li>
-        <li class="list-group-item border-start-0 border-end-0">Send up to 3 GB</li>
-        <li>
-          <button type="button" class="btn btn-purple text-white">LEARN MORE</button>
-        </li>
-        </ul>
-      </div>
+          <div class="card col-lg price-card-center purple">
+            <div class="col price-card-content justify-content-center">
+              <ul class="list-group flex-grow-1 ul-center">
+              <li class="list-group-item text-white card-title border-0">Professional</li>
+              <li class="list-group-item price text-white border-0 d-flex"><span class='dollar align-self-center'>&dollar;</span><div id='pricepro'>249.99</div></li>
+              <li class="list-group-item text-white border-start-0 border-end-0">1 TB Storage</li>
+              <li class="list-group-item text-white border-0">5 Users Allowed</li>
+              <li class="list-group-item text-white border-start-0 border-end-0">Send up to 10 GB</li>
+              <li>
+              <button type="button" class=" btn-white btn"><span class="purple-text-gradient">LEARN MORE</span></button>
+              </li>
+              </ul>
+            </div>
+          </div>
 
-      <div class="card col-lg price-card-center purple">
-        <div class="col price-card-content justify-content-center">
-          <ul class="list-group flex-grow-1 ul-center">
-          <li class="list-group-item text-white card-title border-0">Professional</li>
-          <li class="list-group-item price text-white border-0 d-flex"><span class='dollar align-self-center'>&dollar;</span><div id='pricepro'>249.99</div></li>
-          <li class="list-group-item text-white border-start-0 border-end-0">1 TB Storage</li>
-          <li class="list-group-item text-white border-0">5 Users Allowed</li>
-          <li class="list-group-item text-white border-start-0 border-end-0">Send up to 10 GB</li>
-          <li>
-          <button type="button" class=" btn-white btn"><span class="purple-text-gradient">LEARN MORE</span></button>
-          </li>
-          </ul>
+          <div class="card col-lg price-card justify-content-center">
+            <ul class="list-group">
+            <li class="list-group-item border-0 card-title ">Master</li>
+            <li class="list-group-item price border-0 d-flex"><span class='dollar'>&dollar;</span><div id='pricemaster'>399.99</div></li>
+            <li class="list-group-item border-start-0 border-end-0">2 TB Storage</li>
+            <li class="list-group-item border-0">10 Users Allowed</li>
+            <li class="list-group-item border-start-0 border-end-0">Send up to 20 GB</li>
+            <li>
+              <button type="button" class="btn btn-purple text-white">LEARN MORE</button>
+            </li>
+            </ul>
+          </div>
         </div>
       </div>
-
-      <div class="card col-lg price-card justify-content-center">
-        <ul class="list-group">
-        <li class="list-group-item border-0 card-title ">Master</li>
-        <li class="list-group-item price border-0 d-flex"><span class='dollar'>&dollar;</span><div id='pricemaster'>399.99</div></li>
-        <li class="list-group-item border-start-0 border-end-0">2 TB Storage</li>
-        <li class="list-group-item border-0">10 Users Allowed</li>
-        <li class="list-group-item border-start-0 border-end-0">Send up to 20 GB</li>
-        <li>
-          <button type="button" class="btn btn-purple text-white">LEARN MORE</button>
-        </li>
-        </ul>
-      </div>
     </div>
-    
-  </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/LeonChuu">LeonChuu</a>.
-  </div>
-  </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/LeonChuu">LeonChuu</a>.
+    </div>
+    </div>
+  </main>
 </body>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link href="styles.css" rel="stylesheet">
