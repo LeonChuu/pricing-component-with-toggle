@@ -125,7 +125,11 @@ html, body{
   background-image: var(--gradient);
 }
 .ul-center {
-    background: transparent;
+  background: transparent;
+  
+}
+.ul-center li {
+  border-color: var(--very-light-grayish-blue)
 }
 .list-group {
   border-style: hidden;
@@ -138,7 +142,7 @@ html, body{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.btn-white:active div:not(:focus) {
+.btn-white:active span:not(:focus) {
   -webkit-text-fill-color: white;
 }
 
@@ -149,6 +153,8 @@ html, body{
 .price-card {
   margin-top:1em;
   margin-bottom:1em;
+  border-left: -5em;
+  border-right: -5em;
 }
 .list-group-item {
   text-align: center;
@@ -169,7 +175,8 @@ li {
 
 .header {
   padding: 1.5em;
-  padding-top:3em;
+  padding-top:6em;
+  padding-bottom: 2em;
   font-weight: 900;
 }
 .cards {
@@ -180,7 +187,8 @@ li {
   border-radius: 1em;
 }
 
-h2 {
+h1 {
+  font-size: xx-large;
   font-weight: 700;
   color: var(--dark-grayish-blue);
 }

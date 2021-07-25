@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://leonchuu.github.io/pricing-component-with-toggle/)
+- Live Site URL: [URL](https://leonchuu.github.io/pricing-component-with-toggle/)
 
 ## My process
 
@@ -40,4 +40,4 @@ Working with a page for both desktop and mobile was the biggest learning point i
 
 I also learned how to pick and use different font weights in a page, how to work with pseudo-classes such as :hover and :active, and use color gradients in a page.
 
-Using CSS variables for repeated elements like colors was a small, but very useful tool i picked up along the way.
+Using CSS variables for repeated elements like colors was a small, but very useful tool I picked up along the way.
